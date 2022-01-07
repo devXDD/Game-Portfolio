@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dev Sutreja Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/devjane.png" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+
+        <section class="intro">
+            <h1 class="section__title section__title--intro">
+              Low-poly <strong>Open world game </strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Made in Unity</p>
+            <img src="img/openworld.png" alt="" class="intro__img">
+        </section>
+        
+        <div class="portfolio-item-individual">
+            <p>Disclaimer: The project is only for educational purpose only. My intentions are not to release any copyrighted assests.</p>
+            <p>
+                This project utilizes assets by Polygon and animation from Mixamo, to create an exiting open world experience. 
+            </p>
+            <p>
+                <strong> Character Controller  </strong>
+             </p>
+            <p>
+               Unity's input system has been used to handle all the user inputs. Along with this, animations like walking, sprinting, jumping and aiming have been imported from Mixamo and handled inside Unity using animation controller and scripts.
+               Ray cast has also been implemented to introduce the shooting physics inside the game. 
+            </p>
+            <p>
+               <strong> Level Design  </strong>
+            </p>
+           <p>
+               RoadArchitect by MicroGSD has been used to create dynamic roads with subtle curves, which adds more open world feel to the game. 
+           </p>
+           <p>
+            <strong> Features to be implemented  </strong>
+         </p>
+        <p>
+           Unity's NAV mesh will be implemented to handle the NPCs in the game. Crouch and ledge grabbing will be also be introduced for more interactive behaviour of the Character. 
+        </p>
+
+
+
+            <video width="1024" height="768" controls>
+            <source src = "video/City.mp4" type="video/mp4"
+            </video>
+        
+           
+
+        
+               
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="mailto:devsutreja1106@hotmail.com" class="footer__link">devsutreja1106@hotmail.com</a>
+            <ul class="social-list">
+           
+              
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/devXDD">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>

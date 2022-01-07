@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dev Sutreja Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/devjane.png" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+
+        <section class="intro">
+            <h1 class="section__title section__title--intro">
+               Haptic-Based VR <strong> Aim-Trainer </strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">made in Unity</p>
+            <img src="img/VR.png" alt="" class="intro__img">
+        </section>
+        
+        <div class="portfolio-item-individual">
+           
+            <img src="img/VR.png" alt="">
+            <p>This Aim-Trainer aims to provide aid to patients with limb disability. With the use of Touch X Haptic device and Oculus Quest VR headset, it provides the perfect experience for a healthcare patient to improve the limb movement. </p>
+            <p> The Openhaptics plugin by 3DSystems along with Oculus XR plugins have been used to for integration inside Unity.</p>
+            <p> This Aim-Trainer includes several scenarios where the patient is expected to pop as many targets as they can, in a specific amount of time. The variation of these targets is programmed in such a way that the difficulty increases or decreases based on previous results. The difficulty can be changed by changing the properties of the targets. For instance, the speed of the targets in which they disappear or the size of the targets can be increased or decreased to change the difficulty.
+                The results are evaluated by taking into account the time in which the activity was completed along with the speed of the stylus. An average of force applied on each target can also be seen as a result after each activity. 
+                </p>
+            <p> Another special type of activity included is called Tracking. The patient is required to track the moving targets using the Haptic device and the amount of time that the patient is able to track the target, can be used as a result. In this activity we utilize the full power of the Haptic device. This is done by using the property of Force feedback in a different way. When the patient reaches near a certain diameter of the target, he/she will experience a force which pulls the stylus of the haptic device, towards the target and hence, helping the patient to track the ball efficiently. This would allow the patient to progress and feel different sensations while performing the activity.</p>
+        </div>
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="mailto:devsutreja1106@hotmail.com" class="footer__link">devsutreja1106@hotmail.com</a>
+            <ul class="social-list">
+           
+              
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/devXDD">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>
